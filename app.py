@@ -1,5 +1,4 @@
 import streamlit as st
-from dotenv import load_dotenv
 import time
 import os
 
@@ -7,8 +6,6 @@ from core.inference import get_embeddings, similarity_search
 from core.db import create_faiss_index, load_faiss_index
 from core.song import show_songs
 
-
-load_dotenv()
 
 st.set_page_config(page_title='Sonnet', page_icon='🎵', layout="wide")
 
