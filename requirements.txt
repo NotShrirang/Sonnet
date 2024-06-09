@@ -76,7 +76,7 @@ platformdirs==4.2.2
 portalocker==2.8.2
 prompt-toolkit==3.0.43
 proto-plus==1.23.0
-protobuf==3.20.1
+protobuf==3.20.2
 psutil==5.9.8
 pure-eval==0.2.2
 pyarrow==16.1.0
